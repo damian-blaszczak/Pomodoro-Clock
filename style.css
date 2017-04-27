@@ -1,0 +1,53 @@
+body {
+  margin-top: 160px;
+  background: url('http://www.fannone.com/i/2017/02/clock-gear-wallpaper-wide.jpg') no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: "Montserrat";
+}
+h2{
+  display: inline;
+}
+#start{
+  margin:10px;
+}
+.btn{
+  background: none;
+  border: 3px solid white;
+  border-radius: 50%;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  color: white;
+}
+.btn:hover{
+  background: rgba(0,0,0,0.6);
+    border: 3px solid white;
+  color: white;
+}
+h1{
+  font-size: 16px;
+}
+#title{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+ #break{
+  margin-top: 20px;
+} 
+.cont{
+  width:400px;
+  margin: 0 auto;
+  border: 10px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.5)
+}
+#start{
+  padding: 20px;
+}
+#timeType{
+  overflow: auto;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pomodoro Clock</title>
+	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="sctipt.js"></script>
+	
+</head>
+
+<body>
+<audio id="buzzer1" src="sounds/1.mp3" type="audio/mpeg"></audio>
+<audio id="buzzer2" src="sounds/2.mp3" type="audio/mpeg"></audio>
+<audio id="buzzer3" src="sounds/3.mp3" type="audio/mpeg"></audio>
+<audio id="buzzerTime" src="sounds/timesup.mp3" type="audio/mpeg"></audio>
+<audio id="buzzerBreak" src="sounds/breaksup.mp3" type="audio/mpeg"></audio>
+<div class="text-center cont">
+  <h1 id="title">Pomodoro Clock</h1>
+  <div id="time">
+  <h1 id="title1">Session Time</h1>
+    <a href="#" class="btn" id="minus5clock">-</a>
+    <h2 id="timeType"></h2>
+    <h2 id="num">5</h2>
+    <a href="#" class="btn" id="add5clock">+</a>
+    <a href="#"class="btn" id="reset">Reset</a>
+  </div>
+  <div id="break">
+  <h1 id="title2">Break Time</h1>
+    <a href="#" class="btn" id="minus5break">-</a>
+    <h2 id="breakNum">5</h2>
+    <a href="#" class="btn" id="add5break">+</a>
+  </div>
+  <a href="#"class="btn" id="start">Start</a>
+</div>
+<footer class="text-center" style="color: gray; margin-top: 20px">Created by Damian Błaszczak</footer>
+</body>
+</html>
